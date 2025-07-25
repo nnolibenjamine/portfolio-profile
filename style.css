@@ -3,12 +3,11 @@
     margin: 0%;
     padding: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e5e5e5;
 }
 .containter{
     max-width: 1000px;
     margin: 0% auto;
-    background-color: white;
+    background-color:white;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -58,4 +57,55 @@ nav,a{
     border-radius: 50%;
     object-fit: cover;
     border: 6px solid #eaf6fb ;
+}
+.containter-2{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.header-2 h2{
+    font-size: 1.25rem;
+    color: #2c2c2c;
+}
+.header-2 a{
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.post{
+    display: flex;
+    gap: 1rem;
+    flex-wrap:wrap ;
+}
+.post-card{
+    background-color: white;
+    border-radius: 6px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 360px;
+    box-shadow: 0 0 4px rgba(0,0,0, 0.04); 
+}
+.post-title{
+    font-size: 1.125rem;
+    font-weight:700 ;
+    margin-bottom: 1rem;
+    color: #1d1d1d;
+}
+.post-meta{
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+.post-meta span{
+    margin: 0 0.5rem;
+}
+.post-content{
+    font-size: 0.875rem;
+    color: #444;
+    line-height: 1.5;
 }
